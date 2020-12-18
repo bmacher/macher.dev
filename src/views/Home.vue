@@ -2,12 +2,12 @@
   <div class="container">
     <v-container>
       <v-row>
-        <v-col cols="5"></v-col>
+        <v-col cols="7" class="d-none d-md-flex"></v-col>
 
-        <v-col cols="3">
+        <v-col cols="12" md="5">
           <v-card
             dark
-            class="my-12"
+            class="my-md-16"
             max-width="500"
             color="rgb(0, 0, 0, 0.4)"
           >
@@ -17,9 +17,9 @@
               <p class="mb-5 text-h4">I'm Benjamin, </p>
 
               <p class="text-h6">
-                a technophile currently living in the wonderful city
+                a technophile currently living in the wonderful city of
                 <a target="_blank" href="https://www.dresden.de/en/tourism/tourism.php">Dresden</a>
-                (Germany). I work as a Cloud Developer for Volkswagen, mostly working with AWS.
+                (Germany). I'm working as a Cloud Developer for Volkswagen, mostly with AWS.
                 Huge ♥ for TypeScript, Node.js, VS Code and especially Vue.js.
               </p>
 
@@ -36,7 +36,7 @@
                     <v-btn
                       icon
                       x-large
-                      class="ma-auto"
+                      class="ma-auto icon"
                       href="https://github.com/bmacher/"
                     >
                       <v-icon x-large>mdi-github</v-icon>
@@ -46,7 +46,7 @@
                     <v-btn
                       icon
                       x-large
-                      class="ma-auto"
+                      class="ma-auto icon"
                       href="https://www.linkedin.com/in/benjamin-macher-09a339119/"
                     >
                       <v-icon x-large>mdi-linkedin</v-icon>
@@ -56,7 +56,7 @@
                     <v-btn
                       icon
                       x-large
-                      class="ma-auto"
+                      class="ma-auto icon"
                       href="https://medium.com/@bmacher"
                     >
                       <v-icon x-large>mdi-blogger</v-icon>
@@ -88,6 +88,14 @@ export default class Home extends Vue {}
 
   a:hover {
     text-decoration: underline;
+  }
+
+  a.icon {
+    text-decoration: none;
+  }
+
+  a.icon:hover {
+    color: #2bbc8a;
   }
 }
 </style>
