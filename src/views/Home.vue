@@ -24,8 +24,8 @@
               </p>
 
               <p class="mb-0 text-h6">
-                You can message me at
-                <a href="https://twitter.com/MacherBenjamin">@MacherBenjamin</a>.
+                You can message me on
+                <a href="https://twitter.com/MacherBenjamin">Twitter</a>.
               </p>
             </v-card-text>
 
@@ -72,6 +72,7 @@
                       color="white"
                       text
                       x-small
+                      @click="$router.push('disclaimer')"
                     >
                       Impressum
                     </v-btn>
