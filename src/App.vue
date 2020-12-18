@@ -20,7 +20,7 @@ body {
 }
 
 .v-main {
-  background-image: url(./assets/me.png);
+  background-image: url(./assets/me.jpg);
   background-size: cover;
   background-position: 0 0;
 }
