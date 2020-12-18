@@ -30,7 +30,7 @@
             </v-card-text>
 
             <v-card-actions>
-              <v-container>
+              <v-container class="pb-0">
                 <v-row justify="center">
                   <v-col class="d-flex pb-0">
                     <v-btn
@@ -60,6 +60,20 @@
                       href="https://medium.com/@bmacher"
                     >
                       <v-icon x-large>mdi-blogger</v-icon>
+                    </v-btn>
+                  </v-col>
+                </v-row>
+                <v-row>
+                  <v-col
+                    class="text-center py-0"
+                    cols="12"
+                  >
+                    <v-btn
+                      color="white"
+                      text
+                      x-small
+                    >
+                      Impressum
                     </v-btn>
                   </v-col>
                 </v-row>
