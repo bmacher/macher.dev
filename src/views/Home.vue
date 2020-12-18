@@ -7,7 +7,7 @@
         <v-col cols="12" md="5">
           <v-card
             dark
-            class="my-md-16"
+            class="my-md-16 mx-auto"
             max-width="500"
             color="rgb(0, 0, 0, 0.4)"
           >
