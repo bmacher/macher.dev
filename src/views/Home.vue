@@ -64,7 +64,7 @@
                 </v-row>
                 <v-row>
                   <v-col
-                    class="text-center py-0"
+                    class="text-center pt-1 pb-0"
                     cols="12"
                   >
                     <v-btn
@@ -73,7 +73,7 @@
                       x-small
                       @click="$router.push('disclaimer')"
                     >
-                      Impressum
+                      Disclaimer
                     </v-btn>
                   </v-col>
                 </v-row>
