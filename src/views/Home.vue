@@ -56,7 +56,7 @@
                       icon
                       x-large
                       class="ma-auto icon"
-                      href="https://medium.com/@bmacher"
+                      href="https://bmacher.medium.com"
                     >
                       <v-icon x-large>mdi-blogger</v-icon>
                     </v-btn>
