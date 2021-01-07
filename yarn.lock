@@ -1464,10 +1464,10 @@
     lodash.kebabcase "^4.1.1"
     svg-tags "^1.0.0"
 
-"@vue/babel-preset-app@^4.5.9":
-  version "4.5.9"
-  resolved "https://registry.npm.taobao.org/@vue/babel-preset-app/download/@vue/babel-preset-app-4.5.9.tgz?cache=0&sync_timestamp=1607993642217&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fbabel-preset-app%2Fdownload%2F%40vue%2Fbabel-preset-app-4.5.9.tgz#a4ef1830a21301e4f77d7cd4a04555d8a01eaf33"
-  integrity sha1-pO8YMKITAeT3fXzUoEVV2KAerzM=
+"@vue/babel-preset-app@^4.5.10":
+  version "4.5.10"
+  resolved "https://registry.yarnpkg.com/@vue/babel-preset-app/-/babel-preset-app-4.5.10.tgz#359180d8c720e30a09214d534aa208dbfc399d7f"
+  integrity sha512-IHOyfWqgNNM863NjGmX6s2MIF+ILkJZardHcr7bGrxu5mNBT+p0GOGRQU4sN/adDkEQ9cyAxokm/GIeeoRrnOg==
   dependencies:
     "@babel/core" "^7.11.0"
     "@babel/helper-compilation-targets" "^7.9.6"
@@ -1554,14 +1554,14 @@
   resolved "https://registry.npm.taobao.org/@vue/cli-overlay/download/@vue/cli-overlay-4.5.9.tgz?cache=0&sync_timestamp=1607995832511&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fcli-overlay%2Fdownload%2F%40vue%2Fcli-overlay-4.5.9.tgz#393418b6d5eaf8638f599c939cb425838257d37c"
   integrity sha1-OTQYttXq+GOPWZyTnLQlg4JX03w=
 
-"@vue/cli-plugin-babel@~4.5.0":
-  version "4.5.9"
-  resolved "https://registry.npm.taobao.org/@vue/cli-plugin-babel/download/@vue/cli-plugin-babel-4.5.9.tgz#a0998754bdd08ed8402a7bef494ecb16cee17e92"
-  integrity sha1-oJmHVL3QjthAKnvvSU7LFs7hfpI=
+"@vue/cli-plugin-babel@~4.5.10":
+  version "4.5.10"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-babel/-/cli-plugin-babel-4.5.10.tgz#16c712dd44606c504e6e22977e8bdba25746a661"
+  integrity sha512-vWEGj3w9mbV27WBJslCmQP1l+hmdOiCHn0hmmHOrCdELm/WK/2/iXQEsPSXujtVd7TQgiaFgvvHmHurBlC/+3w==
   dependencies:
     "@babel/core" "^7.11.0"
-    "@vue/babel-preset-app" "^4.5.9"
-    "@vue/cli-shared-utils" "^4.5.9"
+    "@vue/babel-preset-app" "^4.5.10"
+    "@vue/cli-shared-utils" "^4.5.10"
     babel-loader "^8.1.0"
     cache-loader "^4.1.0"
     thread-loader "^2.1.3"
