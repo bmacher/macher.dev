@@ -1,13 +1,11 @@
-name: Build
+name: Node CI
 
 on:
-  pull_request:
-    branches: [master]
   push:
     branches: [master]
 
 jobs:
-  build:
+  node-ci:
     runs-on: ubuntu-latest
 
     steps:
@@ -29,9 +27,14 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
-
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Build app
+      - name: ESLint
+        run: yarn lint
+
+      - name: Jest
+        run: yarn test:unit --verbose
+
+      - name: Build
         run: yarn build
