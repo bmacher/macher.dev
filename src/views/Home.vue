@@ -2,9 +2,15 @@
   <div class="container">
     <v-container>
       <v-row>
-        <v-col cols="7" class="d-none d-md-flex"></v-col>
+        <v-col
+          cols="7"
+          class="d-none d-md-flex"
+        ></v-col>
 
-        <v-col cols="12" md="5">
+        <v-col
+          cols="12"
+          md="5"
+        >
           <v-card
             class="my-md-16 mx-auto"
             max-width="500"
@@ -17,7 +23,10 @@
 
               <p class="text-h6">
                 a technophile currently living in the wonderful city of
-                <a target="_blank" href="https://www.dresden.de/en/tourism/tourism.php">Dresden</a>
+                <a
+                  target="_blank"
+                  href="https://www.dresden.de/en/tourism/tourism.php"
+                >Dresden</a>
                 (Germany). I'm working as a Cloud Developer for Volkswagen, mostly with AWS.
                 Huge ♥ for TypeScript, Node.js, VS Code and especially Vue.js.
               </p>
@@ -37,6 +46,7 @@
                       x-large
                       class="ma-auto icon"
                       href="https://github.com/bmacher/"
+                      data-testid="link-github"
                     >
                       <v-icon x-large>mdi-github</v-icon>
                     </v-btn>
@@ -47,6 +57,7 @@
                       x-large
                       class="ma-auto icon"
                       href="https://www.linkedin.com/in/benjamin-macher-09a339119/"
+                      data-testid="link-linkedin"
                     >
                       <v-icon x-large>mdi-linkedin</v-icon>
                     </v-btn>
@@ -57,6 +68,7 @@
                       x-large
                       class="ma-auto icon"
                       href="https://bmacher.medium.com"
+                      data-testid="link-blog"
                     >
                       <v-icon x-large>mdi-blogger</v-icon>
                     </v-btn>
@@ -71,7 +83,7 @@
                       color="white"
                       text
                       x-small
-                      @click="$router.push('disclaimer')"
+                      to="disclaimer"
                     >
                       Disclaimer
                     </v-btn>
