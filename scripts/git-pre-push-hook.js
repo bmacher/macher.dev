@@ -76,7 +76,7 @@ if (!wipCommitRE.test(msgOfLastCommit)) {
 } else {
   // We got work in progress commit
   const warnMsg = 'Warning! You are pushing a work in progress commit!\n'
-      + 'Neither ESLint, Jest nor CDK List or TSC are executed and therefore\n'
+      + 'Neither ESLint, Tests nor Build are executed and therefore\n'
       + 'the current codebase may be corrupted.';
 
   console.warn(chalk.keyword('orange')(warnMsg));
