@@ -11085,11 +11085,6 @@ vuetify@^2.5.4:
   resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.5.4.tgz#037cc8d430b61188ab15b9a8cc1ee67e620fa6e7"
   integrity sha512-0EIXSCuy9LGXHgWbGiOdUUbGI6feodWoB3s+0Kr7rIppQWsq54tjPaQ1NobjAuDYKG7xsqkr+j0rnJUhc+GIag==
 
-vuex@^3.6.2:
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.6.2.tgz#236bc086a870c3ae79946f107f16de59d5895e71"
-  integrity sha512-ETW44IqCgBpVomy520DT5jf8n0zoCac+sxWnn+hMe/CzaSejb/eVw2YToiXYX+Ex/AuHHia28vWTq4goAexFbw==
-
 w3c-hr-time@^1.0.1:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/w3c-hr-time/download/w3c-hr-time-1.0.2.tgz#0a89cdf5cc15822df9c360543676963e0cc308cd"
