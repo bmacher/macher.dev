@@ -15,7 +15,7 @@ function installHookOrThrow(path, name) {
   const hookPath = resolve(path, name);
   const hookScriptPath = resolve(__dirname, `git-${name}-hook.js`);
 
-  let { code } = shell.exec(`echo 'npx ts-node ${hookScriptPath} "$@"'> ${hookPath}`);
+  let { code } = shell.exec(`echo 'node ${hookScriptPath} "$@"'> ${hookPath}`);
 
   if (code !== 0) {
     throw new Error(`Couldn't add ${name} hook`);
