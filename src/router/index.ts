@@ -1,6 +1,6 @@
+import { Disclaimer, Home } from '@/views';
 import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
-import { Home, Disclaimer } from '@/views';
 
 Vue.use(VueRouter);
 
@@ -12,7 +12,7 @@ const routes: Array<RouteConfig> = [
   },
   {
     path: '/disclaimer',
-    name: 'Disclamer',
+    name: 'Disclaimer',
     component: Disclaimer,
   },
 ];
