@@ -1,10 +1,10 @@
-import router from '@/router';
 import {
   ConfigurationCallback, render, RenderOptions, RenderResult,
 } from '@testing-library/vue';
 import { VueClass } from '@vue/test-utils';
 import Vue, { ComponentOptions } from 'vue';
 import Vuetify from 'vuetify';
+import router from '@/router';
 
 Vue.use(Vuetify);
 
