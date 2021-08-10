@@ -1,6 +1,6 @@
-import { Disclaimer, Home } from '@/views';
 import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
+import { Disclaimer, Home } from '@/views';
 
 Vue.use(VueRouter);
 
