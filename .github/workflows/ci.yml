@@ -1,11 +1,11 @@
-name: Node CI
+name: CI
 
 on:
   push:
     branches: [master]
 
 jobs:
-  node-ci:
+  ci:
     runs-on: ubuntu-latest
 
     steps:
