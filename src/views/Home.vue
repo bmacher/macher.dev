@@ -70,7 +70,7 @@
                       href="https://bmacher.medium.com"
                       data-testid="link-blog"
                     >
-                      <v-icon x-large>mdi-blogger</v-icon>
+                      <v-icon x-large>mdi-alpha-b-box-outline</v-icon>
                     </v-btn>
                   </v-col>
                 </v-row>
