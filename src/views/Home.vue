@@ -74,7 +74,7 @@
                     </v-btn>
                   </v-col>
                 </v-row>
-                <v-row>
+                <v-row class="pb-2">
                   <v-col
                     class="text-center pt-1 pb-0"
                     cols="12"
