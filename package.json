@@ -18,7 +18,7 @@
     "vuetify": "^2.6.2"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/vue": "^5.8.2",
     "@types/jest": "^27.4.0",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
