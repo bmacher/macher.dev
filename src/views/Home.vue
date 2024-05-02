@@ -5,7 +5,7 @@
         <v-col
           cols="7"
           class="d-none d-md-flex"
-        ></v-col>
+        />
 
         <v-col
           cols="12"
@@ -32,8 +32,7 @@
               </p>
 
               <p class="mb-0 text-h6">
-                You can message me on
-                <a href="https://twitter.com/MacherBenjamin">Twitter</a>.
+                I love road cycling as a balance to my work.
               </p>
             </v-card-text>
 
@@ -67,10 +66,15 @@
                       icon
                       x-large
                       class="ma-auto icon"
-                      href="https://bmacher.medium.com"
-                      data-testid="link-blog"
+                      href="https://www.strava.com/athletes/101045713"
+                      data-testid="link-strava"
                     >
-                      <v-icon x-large>mdi-alpha-b-box-outline</v-icon>
+                    <v-img
+                      src="../assets/strava.svg"
+                      height="30"
+                      width="20"
+                      style="max-width: 57.7%;"
+                    ></v-img>
                     </v-btn>
                   </v-col>
                 </v-row>

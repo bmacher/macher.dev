@@ -19,7 +19,7 @@ describe('Home', () => {
 
     expect(queryByTestId('link-github')).toBeInTheDocument();
     expect(queryByTestId('link-linkedin')).toBeInTheDocument();
-    expect(queryByTestId('link-blog')).toBeInTheDocument();
+    expect(queryByTestId('link-strava')).toBeInTheDocument();
   });
 
   it('should have a link to the disclaimer', async () => {
